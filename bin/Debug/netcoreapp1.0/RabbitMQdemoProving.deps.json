@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "006b5f180b79adb66469a9eafa8b08c7d27c7ae1"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "RabbitMQdemoProving/1.0.0": {
+        "dependencies": {
+          "rabbitmq-demo": "1.2.0",
+          "RabbitMQ": "3.6.2"
+        },
+        "runtime": {
+          "RabbitMQdemoProving.dll": {}
+        }
+      },
+      "Autofac/4.2.0": {
+        "runtime": {
+          "lib/netstandard1.1/Autofac.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RabbitMQ/3.6.2": {},
+      "rabbitmq-demo/1.2.0": {
+        "dependencies": {
+          "Autofac": "4.2.0",
+          "Newtonsoft.Json": "9.0.1",
+          "RabbitMQ.Client": "4.1.1-rc1"
+        },
+        "runtime": {
+          "lib/netstandard1.6/rabbitmq-demo.dll": {}
+        }
+      },
+      "RabbitMQ.Client/4.1.1-rc1": {
+        "runtime": {
+          "lib/netstandard1.5/RabbitMQ.Client.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RabbitMQdemoProving/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WHiPMqI8FYa4Mf4yTb0P/aBibHn7Z0B9r02CEXy9oAAkQMJpHxLOE45iIMMW+xthXu26V9nRIz7o5lA7V3ztgw=="
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
+    },
+    "RabbitMQ/3.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4g9ODHrc0eMH2qnOD4u/+dIxPDi+TaVMk7r6YTQ/F6ZZ/T84II64u8E3nJ+wohYlisDMqN5LW+6p4V/vkVdpiA=="
+    },
+    "rabbitmq-demo/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CDQgQK5eGMKYxzl6K4pM+eGFTGPu2Yrcr34aE6aa6Qxq8ZljvHG1fMff83jrYJNd2DhTms5M1N4O+I180tFB5Q=="
+    },
+    "RabbitMQ.Client/4.1.1-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1u8sPemQ4OOaKZ8qr9hIMhZH3sGmxOPbs8qdBKH7AdX5B6g0Q9s6U++d+ieQZmWhnscoDO+K4heFOEI4iTEWZQ=="
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg=="
+    }
+  }
+}
